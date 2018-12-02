@@ -2,6 +2,7 @@ import numpy as np
 import cv2
 import time as t
 import math as m
+#created by; Jonathan Boisvert, Jason Hermans, Mason Blundell December 1st 2018
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
